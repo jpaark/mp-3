@@ -83,25 +83,25 @@ const Container = styled.div`
 export default function Root() {
     return (
         <>
-            <GlobalStyle />
+            <GlobalStyle/>
 
             <PageWrapper>
-                <Header />
+                <Header/>
 
                 <Container>
-                    <Nav />
+                    <Nav/>
 
                     <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/education" element={<Education />} />
-                        <Route path="/experience" element={<Experience />} />
-                        <Route path="/leadership" element={<Leadership />} />
-                        <Route path="/projects" element={<Projects />} />
-                        <Route path="/awards" element={<Awards />} />
+                        <Route path="/" element={<Home/>} />
+                        <Route path="/education" element={<Education/>} />
+                        <Route path="/experience" element={<Experience/>} />
+                        <Route path="/leadership" element={<Leadership/>} />
+                        <Route path="/projects" element={<Projects/>} />
+                        <Route path="/awards" element={<Awards/>} />
                     </Routes>
                 </Container>
 
-                <Footer />
+                <Footer/>
             </PageWrapper>
         </>
     );
